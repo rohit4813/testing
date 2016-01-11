@@ -1,6 +1,6 @@
 #Author : rrv
 #Default name value is World
 
-name = ARGV.first || "World"
-
+puts "whats ur name"
+name=gets.strip
 puts "Hello, #{name}"
